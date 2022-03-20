@@ -6,8 +6,8 @@ Component library built from scratch for my Portfolio and Further projects
 
 ```
 - Primary Color
-- Primary Dark?
-- Gray
+- Primary Dark
+- Gray color
 ```
 
 ## typography
