@@ -51,6 +51,132 @@ a{
   text-decoration:none;
 }
 
+.btn{
+  width:max-content;
+  min-width:9rem;
+  padding:0.5rem 1.2rem;
+  border-radius:0.5rem;
+  font-size:1.2rem;
+  font-weight:600;
+  margin:0.8rem;
+  cursor: pointer;
+  display:inline-block;
+}
+
+.btn-primary{
+  background-color:var(--clr-primary);
+  color:var(--clr-text)
+
+}
+
+.btn-secondary{
+  background-color:var(--clr-secondary);
+  color:var(--clr-black);
+}
+
+.btn-primary-outline{
+  border:2px solid var(--clr-primary);
+  color:var(--clr-black);
+  background-color:var(--clr-text);
+}
+
+.btn-secondary-outline{
+  border:2px solid var(--clr-secondary);
+  color:var(--clr-black);
+  background-color:var(--clr-text);
+}
+.unordered{
+  list-style:none;
+}
+
+.list-inline li{
+  display:inline;
+  padding:0 0.5rem;
+}
+
+.nav {
+  background-color: var(--clr-primary);
+  color:var(--clr-text);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+
+.nav .brand {
+ font-size: 1.8rem;
+ font-weight: 700;
+ display:inline-block;
+}
+.nav ul {
+ list-style:none;
+ text-align:right;
+ float:right;
+}
+
+.nav ul li{
+  display:inline-block;
+  padding:0.5rem 0.8rem;
+}
+
+.nav ul li a{
+  color:var(--clr-text);
+  font-size:1.25rem;
+}
+
+.nav ul li a.active{
+  font-weight: 700;
+}
+
+/* Header */
+.hero {
+  color: var(--clr-dark);
+  display: block;
+  text-align: center;
+}
+
+.hero img {
+  max-width: 350px;
+  margin: 0.5rem auto;
+  display: block;
+}
+
+.img-circle {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  border: 2px solid var(--clr-primary);
+}
+
+.section {
+  padding: 2rem 0rem;
+  text-align: center;
+}
+
+.section.dark {
+  background-color: var(--clr-primary);
+  color: var(--clr-text);
+}
+
+.section.dark .section-title {
+  color: var(--clr-secondary);
+}
+
+.footer {
+  background-color: var(--clr-primary);
+  color: var(--clr-text);
+  padding: 2rem 0;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  text-align: center;
+}
+
+.footer-heading {
+  font-weight: 700;
+  font-size: larger;
+  margin-bottom: 1rem;
+}
+
 /* global css */
 
 /* custom css */
@@ -69,4 +195,15 @@ a{
 
 .description p{
   margin:0.5rem auto;
+}
+
+.section-title{
+  font-size:2rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: var(--clr-primary);
+}
+
+section{
+  padding:2rem;
 }
